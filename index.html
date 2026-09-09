@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A personal corner of the web by Gobyx.">
+    <title>Gobyx | Personal Area</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #18232b;
+            --muted: #60717a;
+            --paper: #f5f7f1;
+            --card: #ffffff;
+            --accent: #e66d4f;
+            --accent-dark: #b94934;
+            --line: #dce5df;
+            --shadow: 0 24px 60px rgba(24, 35, 43, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-width: 320px;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at 85% 12%, rgba(230, 109, 79, 0.18), transparent 24rem),
+                linear-gradient(135deg, #eef4ec 0%, var(--paper) 48%, #f8eee2 100%);
+            font-family: Georgia, "Times New Roman", serif;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .page {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 28px clamp(20px, 6vw, 88px);
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1180px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 0.85rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .mark {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .mark::before {
+            width: 12px;
+            height: 12px;
+            content: "";
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 8px 0 0 #f1b16d;
+        }
+
+        .status {
+            color: var(--muted);
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(270px, 0.8fr);
+            align-items: center;
+            gap: clamp(40px, 8vw, 120px);
+            max-width: 1180px;
+            width: 100%;
+            margin: auto;
+            padding: 8vh 0;
+        }
+
+        .eyebrow {
+            margin: 0 0 20px;
+            color: var(--accent-dark);
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            max-width: 720px;
+            margin: 0;
+            font-size: clamp(3.5rem, 9vw, 8.5rem);
+            font-weight: 400;
+            line-height: 0.86;
+            letter-spacing: -0.04em;
+        }
+
+        .intro {
+            max-width: 500px;
+            margin: 34px 0 0;
+            color: var(--muted);
+            font-size: clamp(1.1rem, 2vw, 1.35rem);
+            line-height: 1.55;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 34px;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+
+        .links a {
+            padding: 12px 17px;
+            border: 1px solid var(--ink);
+            border-radius: 999px;
+            font-size: 0.92rem;
+            text-decoration: none;
+            transition: color 160ms ease, background 160ms ease, transform 160ms ease;
+        }
+
+        .links a:hover,
+        .links a:focus-visible {
+            color: #fff;
+            background: var(--ink);
+            transform: translateY(-2px);
+        }
+
+        .note {
+            position: relative;
+            padding: clamp(28px, 5vw, 48px);
+            background: var(--card);
+            border: 1px solid rgba(24, 35, 43, 0.08);
+            box-shadow: var(--shadow);
+            transform: rotate(2deg);
+        }
+
+        .note::before {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            width: 92px;
+            height: 30px;
+            content: "";
+            background: rgba(241, 177, 109, 0.65);
+            transform: translateX(-50%) rotate(-3deg);
+        }
+
+        .note h2 {
+            margin: 0 0 18px;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        .note p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 1.12rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1180px;
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 20px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.04em;
+        }
+
+        @media (max-width: 720px) {
+            .page {
+                padding-top: 22px;
+            }
+
+            .status {
+                display: none;
+            }
+
+            main {
+                grid-template-columns: 1fr;
+                gap: 58px;
+                padding: 12vh 0 15vh;
+            }
+
+            h1 {
+                font-size: clamp(3.8rem, 20vw, 6.5rem);
+            }
+
+            .note {
+                max-width: 440px;
+                margin: 0 auto;
+                transform: rotate(-1.5deg);
+            }
+
+            footer {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <header class="topbar">
+            <a class="mark" href="/">Gobyx</a>
+            <span class="status">Personal area / online</span>
+        </header>
+
+        <main>
+            <section aria-labelledby="welcome-heading">
+                <p class="eyebrow">A small corner of the web</p>
+                <h1 id="welcome-heading">Hello,<br>I'm Gobyx.</h1>
+                <p class="intro">This is my personal space for experiments, projects, and things worth sharing.</p>
+                <nav class="links" aria-label="Primary links">
+                    <a href="https://github.com/gobyx">GitHub</a>
+                    <a href="mailto:hello@gobyx.github.io">Contact</a>
+                </nav>
+            </section>
+
+            <aside class="note" aria-label="Current note">
+                <h2>Currently building</h2>
+                <p>Good ideas, useful tools, and a home for the next thing. Check back soon for more.</p>
+            </aside>
+        </main>
+
+        <footer>
+            <span>Made with curiosity.</span>
+            <span>&copy; 2026 Gobyx</span>
+        </footer>
+    </div>
+</body>
+
+</html>
