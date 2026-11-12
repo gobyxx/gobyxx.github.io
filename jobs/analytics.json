@@ -1,0 +1,139 @@
+{
+ "generated": "2026-11-12T23:30:00+01:00",
+ "applications": [
+  {
+   "date": "2026-10-07",
+   "submitted": null,
+   "company": "YER",
+   "title": "PCB Layout Designer (m/w/d)",
+   "role": "PCB Layout Designer",
+   "location": "Nürnberg",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-10-07",
+   "submitted": null,
+   "company": "FRITZ!",
+   "title": "Hardwareentwickler für Systemdesign (w/m/d)",
+   "role": "Hardware Engineer",
+   "location": "Berlin (hybrid)",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-10-07",
+   "submitted": null,
+   "company": "ep group",
+   "title": "Hardwareentwickler Schaltungstechnik (m/w/d)",
+   "role": "Hardware Engineer",
+   "location": "Erlangen (hybrid)",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-10-19",
+   "submitted": null,
+   "company": "Edwards Lifesciences",
+   "title": "Clinical Graduate Program",
+   "role": "Clinical Graduate Program",
+   "location": "Germany, field-based (first 3–5 months in Munich)",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-10-20",
+   "submitted": null,
+   "company": "Texas Instruments",
+   "title": "FAST Development Programm Field Applications Engineering (m/f/d) - Deutschland",
+   "role": "Field Applications Engineer Graduate Program",
+   "location": "Garching bei München, Stuttgart, Nürnberg, Düsseldorf, Regensburg, Eschborn or Hannover (choice of start location)",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-10-24",
+   "submitted": null,
+   "company": "S & O Logistik",
+   "title": "Warehouse and shipping staff (m/f/d) on a part-time or mini-job basis",
+   "role": "Mini-Job Warehouse and Shipping Staff",
+   "location": "Nuremberg (remote work possible)",
+   "site": "Not recorded",
+   "status": "Rejected",
+   "link": "",
+   "run": null
+  },
+  {
+   "date": "2026-11-11",
+   "submitted": "2026-11-12",
+   "company": "Nokia",
+   "title": "High-Speed Converters Test and Validation Engineer",
+   "role": "Test Engineer",
+   "location": "Nuremberg (on-site)",
+   "site": "LinkedIn",
+   "status": "Applied",
+   "link": "https://www.linkedin.com/jobs/view/4470891115/",
+   "run": "2026-11-11"
+  },
+  {
+   "date": "2026-11-11",
+   "submitted": "2026-11-12",
+   "company": "Saab",
+   "title": "Techniker / Ingenieur Tuner Production (m/w/d)",
+   "role": "Production Engineer",
+   "location": "Nuremberg",
+   "site": "LinkedIn",
+   "status": "Applied",
+   "link": "https://www.linkedin.com/jobs/view/4482054770/",
+   "run": "2026-11-11"
+  },
+  {
+   "date": "2026-11-12",
+   "submitted": "2026-11-12",
+   "company": "Segula Technologies",
+   "title": "Power Electronics Engineer (m/f/d) DC-DC & OBC",
+   "role": "Power Electronics Engineer",
+   "location": "Erlangen",
+   "site": "Indeed",
+   "status": "Applied",
+   "link": "https://de.indeed.com/viewjob?jk=b87408a6c76c2da9",
+   "run": "2026-11-11"
+  },
+  {
+   "date": "2026-11-12",
+   "submitted": null,
+   "company": "Bertrandt",
+   "title": "Junior System Engineer Energy (m/w/d)",
+   "role": "System Engineer",
+   "location": "Nuremberg (hybrid)",
+   "site": "LinkedIn",
+   "status": "Needs you",
+   "link": "https://www.linkedin.com/jobs/view/4488686290/",
+   "run": "2026-11-11"
+  }
+ ],
+ "runs": [
+  {
+   "date": "2026-11-11",
+   "sites": [
+    "Indeed",
+    "LinkedIn"
+   ],
+   "found": 11,
+   "picked": 4,
+   "prepared": 4,
+   "sent": 3,
+   "skipped": 0
+  }
+ ]
+}
