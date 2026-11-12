@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T03:39:58+01:00",
+ "generated": "2026-11-12T10:35:21+01:00",
  "applications": [
   {
    "date": "2026-10-07",
@@ -75,13 +75,13 @@
   },
   {
    "date": "2026-11-11",
-   "submitted": null,
+   "submitted": "2026-11-12",
    "company": "Nokia",
    "title": "High-Speed Converters Test and Validation Engineer",
    "role": "Test Engineer",
    "location": "Nuremberg (on-site)",
    "site": "LinkedIn",
-   "status": "Draft",
+   "status": "Applied",
    "link": "https://www.linkedin.com/jobs/view/4470891115/",
    "run": "2026-11-11"
   }
@@ -96,7 +96,7 @@
    "found": 11,
    "picked": 2,
    "prepared": 1,
-   "sent": 0,
+   "sent": 1,
    "skipped": 0
   }
  ]
