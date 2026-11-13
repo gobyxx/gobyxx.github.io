@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T23:30:00+01:00",
+ "generated": "2026-11-13T23:30:01+01:00",
  "applications": [
   {
    "date": "2026-10-07",
@@ -120,6 +120,66 @@
    "status": "Needs you",
    "link": "https://www.linkedin.com/jobs/view/4488686290/",
    "run": "2026-11-11"
+  },
+  {
+   "date": "2026-11-13",
+   "submitted": null,
+   "company": "ifm",
+   "title": "Engineer Quality Assurance (m/w/d) - Test Strategy & AI",
+   "role": "Quality Assurance Engineer",
+   "location": "Fürth (hybrid)",
+   "site": "LinkedIn",
+   "status": "Needs you",
+   "link": "https://www.linkedin.com/jobs/view/4472189071/",
+   "run": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "submitted": null,
+   "company": "Computer Futures",
+   "title": "Software Test Automation Engineer (m/w/d) / Erlangen",
+   "role": "Software Test Engineer",
+   "location": "Erlangen (hybrid, 2 days remote)",
+   "site": "LinkedIn",
+   "status": "Ready for review",
+   "link": "https://www.linkedin.com/jobs/view/4490304695/",
+   "run": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "submitted": null,
+   "company": "YER",
+   "title": "PCB Layout Designer (m/w/d)",
+   "role": "PCB Layout Designer",
+   "location": "Nürnberg",
+   "site": "LinkedIn",
+   "status": "Ready for review",
+   "link": "https://www.linkedin.com/jobs/view/4490552034/",
+   "run": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "submitted": null,
+   "company": "ALTEN",
+   "title": "Test Automation Engineer (all gender)",
+   "role": "Software Test Engineer",
+   "location": "Nürnberg (mobile working possible)",
+   "site": "LinkedIn",
+   "status": "Ready to approve",
+   "link": "https://www.linkedin.com/jobs/view/4479972252/",
+   "run": "2026-11-13"
+  },
+  {
+   "date": "2026-11-13",
+   "submitted": null,
+   "company": "Bertrandt",
+   "title": "Hardwareentwickler für FPGA (m/w/d)",
+   "role": "FPGA Engineer",
+   "location": "Nürnberg",
+   "site": "LinkedIn",
+   "status": "Ready to approve",
+   "link": "https://www.linkedin.com/jobs/view/4488683329/",
+   "run": "2026-11-13"
   }
  ],
  "runs": [
@@ -133,6 +193,17 @@
    "picked": 4,
    "prepared": 4,
    "sent": 3,
+   "skipped": 0
+  },
+  {
+   "date": "2026-11-13",
+   "sites": [
+    "LinkedIn"
+   ],
+   "found": 37,
+   "picked": 5,
+   "prepared": 5,
+   "sent": 0,
    "skipped": 0
   }
  ]
